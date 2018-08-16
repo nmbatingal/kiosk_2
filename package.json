@@ -11,14 +11,19 @@
   },
   "devDependencies": {
     "axios": "^0.16.2",
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-sass": "^3.3.7",
     "cross-env": "^5.0.1",
     "jquery": "^3.1.1",
     "laravel-mix": "^1.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "lodash": "^4.17.4",
+    "tether": "^1.4.0",
     "vue": "^2.1.10"
   },
   "dependencies": {
-    "popper.js": "^1.14.4"
+    "popper.js": "^1.14.4",
+    "swiper": "^4.3.5"
   }
 }

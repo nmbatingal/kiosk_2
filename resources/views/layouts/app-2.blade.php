@@ -12,21 +12,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('swiper/css/swiper.min.css') }}">
-    @yield('styles')
-    <style>
-        .swiper-container {
-            width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
-        .swiper-slide {
-            background-position: center;
-            background-size: cover;
-            width: 400px;
-            height: 650px;
-        }
-    </style>
 </head>
 <body>
     <div id="app">
@@ -91,28 +76,5 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <!-- Swiper JS -->
-    <script src="{{ asset('swiper/js/swiper.min.js') }}"></script>
-    @yield('scripts')
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows : true,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-            },
-        });
-    </script>
 </body>
 </html>
